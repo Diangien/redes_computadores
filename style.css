@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+    background-color: rgb(166, 202, 233);
+    align-items: center;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header .logo .logo-text{
+    font-size: 2.3em;
+    color:white;
+    animation: festa 6s infinite;
+    font-weight: bold;
+}
+
+@keyframes festa{
+    0%{
+        color:azure;
+    }
+
+    25%{
+        color:black;
+    }
+
+    50%{
+        color:rgba(0, 0, 0, 0.856);
+    }
+
+    100%{
+        color:white;
+    }
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap:10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sublinhado{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding: .5% 1%;
+}
+
+h1{
+    font-size: 2.3em;
+}
